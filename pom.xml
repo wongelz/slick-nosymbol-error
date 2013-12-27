@@ -9,7 +9,7 @@
     <name>slick-exp</name>
 
     <properties>
-        <scala.version>2.10.3</scala.version>
+        <scala.version>2.10.4-RC1</scala.version>
     </properties>
 
     <scm>
@@ -53,8 +53,15 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.10.3</version>
+            <version>2.10.4-RC1</version>
         </dependency>
+<!-- // adding reflect does NOT fix the problem
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.10.4-RC1</version>
+        </dependency>
+-->
         <dependency>
             <groupId>com.typesafe.slick</groupId>
             <artifactId>slick_2.10</artifactId>
